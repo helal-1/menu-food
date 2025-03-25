@@ -1,0 +1,10 @@
+@media (max-width: 1024px){
+    .child .drop-down .dropdown{
+        display: none;
+    }
+    .child .drop-down{
+        background-color: transparent;
+        width: fit-content;
+        border: none;
+    }
+}

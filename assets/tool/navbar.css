@@ -1,0 +1,63 @@
+header {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6em;
+    padding: 10px 30px;
+}
+nav .logo {
+    width: 154px;
+    height: 154px;
+    position: relative;
+    top: -50%;
+}
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.child i {
+    cursor: pointer;
+    font-size: 24px;
+    position: relative;
+    color: #7f7f7f;
+}
+.child .bi-bell:hover{
+    color: #0041E8;
+}
+.child .bi-bell::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.child .drop-down {
+    width: 263px;
+    border-radius: 10px;
+    height: 63px;
+    background-color: #f0f1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid #d6d9de;
+    cursor: pointer;
+}
+
+.child .drop-down img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.child .drop-down i {
+    font-size: 16px;
+}
